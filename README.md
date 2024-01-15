@@ -78,6 +78,20 @@ fn main() {
 123456789
 ```
 
+### for문을 활용한 구구단
+
+```rust
+fn main() {
+    for y in 1..10 {
+        for x in 2..10 {
+            print!("{} * {} = {:2}\t", x, y, x * y)
+        }
+        println!()
+    }
+}
+```
+
+
 ## FizzBuzz
 
 지금까지 공부한 것 가지고 문제를 한 번 풀어보자
